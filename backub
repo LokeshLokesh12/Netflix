@@ -1,0 +1,66 @@
+<!-- tv html -->
+<div class="story-wrapper">
+            <div class="enjoy-tv story-box ">
+              <div class="container d-flex " >
+                    <!-- LEFT COLUMN START [ENJOY TV] -->
+                    <div class="left-column ">
+                        <h1>Enjoy on your TV.</h1>
+                        <h2>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h2>
+                    </div>
+                    <!-- LEFT COLUMN END [ENJOY TV]  -->
+                    <!-- RIGHT COLUMN START [ENJOY TV] -->
+                    <div class="right-column">
+                        <img src="./Assets/tv.png" alt="">
+                        <video src="./Assets/video/video-1-enjoy-tv.m4v" muted autoplay loop ></video>
+                    </div>
+                    <!-- RIGHT COLUMN END [ENJOY TV] -->
+                </div>
+            </div>
+        </div>
+
+
+
+css 
+
+.story-wrapper{
+    background-color: #000;
+    border-bottom: 8px solid #222;
+}
+.story-box .container{
+    padding: 40px 70px;  
+  
+}
+/* ENJOY TV */
+/* left */
+.enjoy-tv .container .left-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.enjoy-tv .container .left-column h2{
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-top: 5%;
+
+}
+
+
+/* right */
+
+.enjoy-tv .right-column{
+    overflow: hidden;
+    position: relative;
+    width: 80%;
+    height: 500px;
+}
+
+.enjoy-tv .right-column img{
+    position: absolute;
+    width: 100%;
+   
+
+}
+.enjoy-tv .right-column video{
+    margin: 16% 0 0 13%;
+    width: 73%;
+}
